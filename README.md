@@ -1,6 +1,6 @@
 # Michel Dimitri
 
-I run [Sharkcode](https://sharkcodestudio.com), a small web studio: websites and online shops for small businesses in Italy.
+I run [Sharkcode](https://sharkcodestudio.com), a small web studio: websites, online shops and custom web apps for small businesses in Italy, Spain and the United States.
 
 I work with a system of AI agents that I designed and built with Claude Code. Brand, copy, legal pages, code and quality checks go through specialized agents; I decide what gets built, write the rules they follow and check the result before it reaches a client. The repositories below are the parts of that system that can be public, separated from client code and data.
 
