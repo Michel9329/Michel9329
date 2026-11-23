@@ -10,14 +10,13 @@ Since 2026 I work with a system of AI agents that I designed and built on Claude
 
 Client code is private. These repositories are the parts of the system, and the tools built next to it, that can be separated from client data.
 
-| Repository | What it is | Built with |
-|---|---|---|
-| [sharkcode-os](https://github.com/Michel9329/sharkcode-os) | How the system is built: pipeline, agents, hooks, memory. A page without code. | Claude Code |
-| [claude-code-guardrails](https://github.com/Michel9329/claude-code-guardrails) | Hooks that deny a Claude Code tool call when it breaks a project rule, so the rule does not depend on the model remembering it. | Node.js, no dependencies |
-| [humanizer-it](https://github.com/Michel9329/humanizer-it) | A Claude Code skill for Italian text that should not read as machine-written. | Claude Code skill |
-| [image-review-portal](https://github.com/Michel9329/image-review-portal) | Image approval with versions, comments pinned to a point and a set number of sign-offs. | Cloudflare Workers, Hono, D1, R2 |
-| [gdpr-scanner](https://github.com/Michel9329/gdpr-scanner) | Finds trackers firing before consent, Google Fonts loaded from the CDN and missing privacy pages. It runs behind the privacy check of the [free site audit](https://sharkcodestudio.com/strumenti/audit) on the studio's website. | Cloudflare Workers, Browser Rendering, TypeScript |
-| [aion2-build-guide](https://github.com/Michel9329/aion2-build-guide) | A side project: game build guides generated from data, with a consistency check and a mutation test. | Node.js, Python |
+- [sharkcode-os](https://github.com/Michel9329/sharkcode-os): how the system is built, with its pipeline, agents, hooks and memory. A page without code.
+- [claude-code-guardrails](https://github.com/Michel9329/claude-code-guardrails): hooks that deny a Claude Code tool call when it breaks a project rule, so the rule does not depend on the model remembering it. Node.js, no dependencies.
+- [humanizer-it](https://github.com/Michel9329/humanizer-it): a Claude Code skill for Italian text that should not read as machine-written.
+- [pinna](https://github.com/Michel9329/pinna): visual feedback on websites. A reviewer clicks a point of a staging site and leaves a comment pinned there. Cloudflare Workers, Hono, D1, R2, Vue 3, with unit tests and browser tests on three engines.
+- [image-review-portal](https://github.com/Michel9329/image-review-portal): image approval with versions, comments pinned to a point and a set number of sign-offs. Cloudflare Workers, Hono, D1, R2.
+- [gdpr-scanner](https://github.com/Michel9329/gdpr-scanner): a Worker that opens a site in a headless browser and reports trackers firing before consent, Google Fonts loaded from the CDN and missing privacy pages. It runs behind the privacy check of the [free site audit](https://sharkcodestudio.com/en/strumenti/audit) on the studio's website. Cloudflare Workers, Browser Run, TypeScript.
+- [aion2-build-guide](https://github.com/Michel9329/aion2-build-guide): a side project. Game build guides generated from data, with a consistency check and a mutation test. Node.js, Python.
 
 Everything here is built with Claude Code, designed and reviewed by me.
 
